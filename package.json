@@ -1,0 +1,27 @@
+{
+  "name": "azure-cli-subscription-selector",
+  "version": "1.1.0",
+  "description": "This is a helper tool for the Azure CLI to easily switch between subscriptions.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lhmzhou/azure-cli-subscription-selector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lhmzhou/azure-cli-subscription-selector/issues"
+  },
+  "homepage": "https://github.com/lhmzhou8/azure-cli-subscription-selector#readme",
+  "bin": {
+    "azsubselect": "./index.js"
+  },
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  }
+}
